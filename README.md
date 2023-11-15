@@ -45,16 +45,13 @@ If wanted the program shows the current best move proposal by stockfish and the 
 A scoresheet is shown during the game and could be printed out after the game.
 For there is a link to lichess/analysis with the game data.
 
-
-
 Abbreviations:
-FEN:  Forsyth Edwards Notation, 
-UCI:  Universal Chess Interface,  
-SAN:  Standard Chess Notation,   
-PGN:  Portable Game Notation,  
+
+FEN:  Forsyth Edwards Notation
+UCI:  Universal Chess Interface
+SAN:  Standard Chess Notation
+PGN:  Portable Game Notation
 
 References:
 1. Murat Sahin    https://github.com/sta314/chess_state_recognition
 2. Tobi Adewoye   https://github.com/tikul/fen-to-png
-
-
