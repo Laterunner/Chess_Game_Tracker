@@ -48,10 +48,10 @@ For there is a link to lichess/analysis with the game data.
 
 
 Abbreviations:
-FEN:  Forsythe Edwards Notation
-UCI:  Universal Schess Interface
-SAN:  Standard Chess Notation
-PGN:  Portable Game Notatiom
+FEN:  Forsyth Edwards Notation, 
+UCI:  Universal Chess Interface,  
+SAN:  Standard Chess Notation,   
+PGN:  Portable Game Notation,  
 
 References:
 1. Murat Sahin    https://github.com/sta314/chess_state_recognition
