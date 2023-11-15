@@ -36,7 +36,7 @@ Fen-to-png is used again to convert the new FEN string a new image.
 now the procedure the next image is taken, processed and the cycle repeats.
 This is done each time the lever of the DGT Clock is pressed.
 
-The program can handle castling, en passant moves and promotion ( and underpromotions) of pawns.
+The program can handle castling, en passant moves and promotion (and underpromotions) of pawns.
 
 All game data, SAN moves and PGN are saved to a file.
 
