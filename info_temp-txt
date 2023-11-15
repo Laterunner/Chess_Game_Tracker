@@ -1,0 +1,7 @@
+This Chess Game Tracker works with Computer Vision and Object detection.
+A Panasonic NV DS-55 Camcorder with Birds Eye View, a Nvidia Jetson Xavier NX, a Chess Board and a modified DGT 3000 Chess Clock were connected to track real OTB Chess Games with clock. Python, Open CV, Numpy, python-chess and Stockfish were use in this project.  Moves are detected witin 200 msecs. Output is printed as a Score Sheet Lichess Analysis URL. Handles Castling, e.p. and pawn underpromotion.
+
+No Yolo (You only look once), no CNN. Works slower, but 100% accuracy :)
+
+Code is on Github. Feel free to contact me.
+Marius
