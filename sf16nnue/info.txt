@@ -1,0 +1,2 @@
+Stockfish is to large to be uploaded here.
+Please compile on your machine!
