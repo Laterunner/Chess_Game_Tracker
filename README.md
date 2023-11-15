@@ -1,6 +1,7 @@
 # Chess_Game_Tracker
-Track Chess Games with Computer Vision
-A Cam (Panasonic DV NV55)connected to a Nvidia Jetson NX mini computer, Python, OpenCV and Numpy, python-chess and Stockfish were used in this program. 
+Track Chess Games with Computer Vision.
+
+A Cam (Panasonic DV NV55) connected to a Nvidia Jetson NX mini computer, Python, OpenCV and Numpy, python-chess and Stockfish were used in this program. 
 
 The Chess set was a wooden Chess board with colored pieces. A DGT3000 Chess clock was modifed with a HAL Sensor and a debounce circuit. Each time the lever was pressed a keystroke "p"  was sent to the mini computer via USB to signalize when a move was done.
 
