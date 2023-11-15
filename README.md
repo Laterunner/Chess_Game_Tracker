@@ -40,18 +40,18 @@ The program can handle castling, en passant moves and promotion ( and underpromo
 
 All game data, SAN moves and PGN are saved to a file.
 
-If wanted the program shows the current best move proposoal by stockfish and the curent evaluation in an info window.  
+If wanted the program shows the current best move proposal by stockfish and the curent evaluation in an info window.  
 
 A scoresheet is shown during the game and could be printed out after the game.
 For there is a link to lichess/analysis with the game data.
 
 
 
-Abbreviations
-FEN  Forsythe Edwards Notation
-UCI Universal Schess Interface
-SAN Standard Chess Notation
-PGN Portable Game Notatiom
+Abbreviations:
+FEN:  Forsythe Edwards Notation
+UCI:  Universal Schess Interface
+SAN:  Standard Chess Notation
+PGN:  Portable Game Notatiom
 
 References:
 1. Murat Sahin    https://github.com/sta314/chess_state_recognition
