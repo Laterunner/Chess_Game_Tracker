@@ -1,0 +1,11 @@
+This repository is a copy from sta314's repository, which is fully functioning, 
+well written and well documented. The modified version here can be used for 
+chess board corner detection only. Detection is achieved with conventional 
+Image processing techniques (Open Cv, Canny Edge Detection and 
+Hough Line Transformation in a rather complicated and slow pipeline. 
+
+The corner coordinates are saved in a file for later use in the Chess Game Tracker Setup. 
+Program parts concerning piece detection with Yolo were deactivated.
+
+Marius June 2023
+
