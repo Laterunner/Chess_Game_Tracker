@@ -2,7 +2,7 @@
 Track Chess Games with Computer Vision
 A Cam (Panasonic DV NV55)connected to a Nvidia Jetson NX mini computer, Python, OpenCV and Numpy, python-chess and Stockfish were used in this program. 
 
-The Chess set was a wooden Chess board with colored pieces. A DGT3000 Chess clock was modifed with a HAL Sensor and a debounce circuit. Each time the lever was pressed a keystroke "p"  was sent to ze mini computer via USB to signalize when a move was done.
+The Chess set was a wooden Chess board with colored pieces. A DGT3000 Chess clock was modifed with a HAL Sensor and a debounce circuit. Each time the lever was pressed a keystroke "p"  was sent to the mini computer via USB to signalize when a move was done.
 
 The Chessboard was identified by a method described by Murat Sahin 2023 (1) using a cascade of Canny Edge Detection and Hough lines. 
 The board image was  warped to a square of 800x800 pixels.
