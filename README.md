@@ -5,7 +5,7 @@ A Cam (Panasonic DV NV55) connected to a Nvidia Jetson NX mini computer, Python,
 
 The Chess set is a wooden Chess board with colored pieces. A DGT3000 Chess clock was modifed with a HAL Sensor and a debounce circuit. Each time the lever is pressed a keystroke "p"  is sent to the mini computer via USB to signalize when a move has been done.
 
-The Chessboard is identified by a method described by Murat Sahin 2023 (1) using a cascade of Canny Edge Detection and Hough line Transform. After the corner coordinates are found The board image is  warped to a square of 800x800 pixels. Now assigning coordinates to the 64 sqaures is greatly facilated.
+The Chessboard is identified by a method described by Murat Sahin 2023 (1) using a cascade of Canny Edge Detection and Hough line Transform. After the corner coordinates are found the board image is  warped to a square of 800x800 pixels. Now assigning coordinates to the 64 sqaures is greatly faciliated.
 
 FEN (Forsyte Edwards Notation)is used to describe chess positions. Moves  are described their by origin and destination square (given in UCI notation). Normal chessgames always begin with a unique starting position:
 
