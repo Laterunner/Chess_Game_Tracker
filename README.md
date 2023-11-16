@@ -29,11 +29,10 @@ These squarenames are stored in sets. Four sets are obtained for each move:
 3. set of squares with white pieces after a move
 4. set of squares with black pieces after a move
 
-The move are be calculated using the python setdifference():
+For white moves sets with white pieces are used, for black moves sets with black pieces.
+Moves are calculated using the python setdifference():
         
         setdifference(set_squares_of before_move, set_square_after a move)
-        
-For white moves sets with white pieces are used, for black moves sets with black pieces.
 
 Setdifference() gives the origin and destination squares, thus the move in uci notation. 
 Castling is recognized because here setdifference() results in four squares, which can be assigned to the respective castle move.
