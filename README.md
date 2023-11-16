@@ -46,7 +46,7 @@ main2ext.py is setup
 cptestx.py  is the main program
 fen-to-png and the program for corner detection are in subdirectories. 
 
-The code is hacky, but working. For demo watch the Youtube video.
+The code is hacky, but working. Remember to set ".sh" files to executable. For demo watch the Youtube video.
 
 Abbreviations:
 
