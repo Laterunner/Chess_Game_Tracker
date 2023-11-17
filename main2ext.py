@@ -187,7 +187,7 @@ def warp():
             
             ########################################################################################################
             '''
-            corn  =np.load("/home/marius/Desktop/pyprojects/csr-jet/chess_state_recognition/cornersmb.npy")
+            corn  =np.load("./chess_state_recognition/cornersmb.npy")
             print(np.shape(corn))
 
           ##TEST
