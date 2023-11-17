@@ -77,6 +77,5 @@ Abbreviations:
 4. PGN:  Portable Game Notation
 5. OTB:  Over The Board
 
-Marius Nov 2023
-
+Dr. Marius Bartsch Nov 2023
 
