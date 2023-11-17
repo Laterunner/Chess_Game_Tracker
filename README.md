@@ -7,7 +7,7 @@ The Chess set is a wooden Chess board with colored pieces. A DGT3000 Chess clock
 
 The Chessboard is identified by a method described by Murat Sahin 2023 (1) using a cascade of Canny Edge Detection and Hough Line Transform. After the corner coordinates are found the board image is  warped to a square of 800x800 pixels. Now assigning coordinates to the 64 sqaures is greatly faciliated.
 
-FEN (Forsyte Edwards Notation)is used to describe chess positions. Moves are described their by origin and destination square (which is UCI notation). Normal chessgames always begin with a unique starting position:
+FEN (Forsyth Edwards Notation)is used to describe chess positions. Moves are described their by origin and destination square (which is UCI notation). Normal chessgames always begin with a unique starting position:
 
 	FEN = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
 
@@ -59,7 +59,7 @@ The code is hacky, but working very reliable even under changing light condition
 Discussion:
 Chess board and piece identification have been done with Yolo (You only look once) and trained Networks (1,3,4).  Although Yolo is very fast, it is not as reliable as the method used here, which completely avoids piece identification. Identifying chess pieces from an angle by looking at shape, size and color always has the problem of obscured, partly visible and difficult to detect pieces. If Yolo fails and detects a false but legal move, there is no immediate way to correct this. The method used here avoids direct piece identification.  With a birds eye view, the initial chess position and move detection and chess rules applied it circumvents all problems with obscured and partly seen pieces. Getting a score sheets after the games and easy access to lichess analysis are useful features for every serious chess OTB player.
 
-There remains on problem with visual detection of chess moves and that is the players hands, which should not be over the board in the moment, when images are taken. This could be achieved, if both players use only one hand (the hand next to the chess clock located at the side of the board) to make moves and press the clock's lever. A good solution could eventually be the placement of a new button or keypad outside the board in front of each player ouside the board. Than it might even be possible to use hand detection instead of lever or key presses (for finishing moves).
+There remains one problem with visual detection of chess moves and that is the players hands, which should not be over the board in the moment, when images are taken. This could be achieved, if both players use only one hand (the hand next to the chess clock located at the side of the board) to make moves and press the clock's lever. A good solution could eventually be the placement of a new button or keypad outside the board in front of each player ouside the board. Than it might even be possible to use hand detection instead of lever or key presses (for finishing moves).
 
 
 References:
