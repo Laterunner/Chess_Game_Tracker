@@ -7,11 +7,11 @@ The Chess set is a wooden Chess board with colored pieces. A DGT3000 Chess clock
 
 The Chessboard is identified by a method described by Murat Sahin 2023 (1) using a cascade of Canny Edge Detection and Hough Line Transform. After the corner coordinates are found the board image is  warped to a square of 800x800 pixels. Now assigning coordinates to the 64 sqaures is greatly faciliated.
 
-FEN (Forsyth Edwards Notation)is used to describe chess positions. Moves are described their by origin and destination square (which is UCI notation). Normal chessgames always begin with a unique starting position:
+FEN (Forsyth Edwards Notation) is used to describe chess positions. Moves are described their by origin and destination square (which is UCI notation). Normal chessgames always begin with a unique starting position:
 
 	FEN = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
 
-This FEN string can be converted to an image using fen-to-png Toby Adewoye 2019 (2) and rapidly displayed.
+This FEN string can be converted to an image using fen-to-png from Toby Adewoye 2019 (2) and rapidly displayed.
 
 The next step is move detection. For move detection images of the board before and after each move are taken. These two images are processed with a apropriate color filters and masks to  obtain four images:
 
@@ -49,11 +49,13 @@ All game data, SAN moves and PGN (Portable Game Notation) are saved to a file. I
 A scoresheet is shown during the game and could be printed out after the game.
 Games can be replayed or analysed in Lichess (one click).
 
-main2ext.py is setup
-cptestx.py  is the main program
+The main directory contains:
+1. main2ext.py is setup and should be run for calibration
+2. cptestx.py, which is the main program.
+
 fen-to-png and the program for corner detection are in subdirectories. 
 
-The code is hacky, but working very reliable even under changing light conditions. Move detection is with in 200 msecs. Remember to set ".sh" files to executable. For demo watch the Youtube video.
+The code is hacky, but working very reliable even under changing light conditions. Move detection is within 200 msecs. Remember to set ".sh" files to executable. For demo watch the Youtube video.
 
 
 Discussion:
