@@ -55,6 +55,14 @@ The main directory contains:
 
 fen-to-png and the program for corner detection are in subdirectories. 
 
+
+Screenshots:
+in the screeshots subfolder four screeshots are given:
+1. 1_setup_corner_detection.png - showing the detected board and their coordinates
+2. 2_setup_calibaration.png - showing color calibration window with sliders for the separation of black and white players pieces.
+3. The detected chessboard and its squares  
+4. The window of the main program with life image (top left), the boards before and after a move, the board generated from FEN (blue), an info window (black, bottom) and the scoresheet (right).
+
 The code is hacky, but working very reliable even under changing light conditions. Move detection is within 200 msecs. Remember to set ".sh" files to executable. For demo watch the Youtube video.
 
 
