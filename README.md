@@ -13,7 +13,7 @@ FEN (Forsyth Edwards Notation) is used to describe chess positions. Moves are de
 
 This FEN string can be converted to an image using fen-to-png from Toby Adewoye 2019 (2) and rapidly displayed.
 
-The next step is move detection. For move detection images of the board before and after each move are taken. These two images are processed with a apropriate color filters and masks to  obtain four images:
+The next step is move detection. For move detection images of the board before and after each move are taken. These two images are processed with appropriate color filters and masks to  obtain four images:
 
 1. an image of white pieces before the move
 2. an image of white pieces after the move
