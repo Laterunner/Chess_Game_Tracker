@@ -498,7 +498,7 @@ def cam_func(FEN):
                     
                     # print("san_move_list ...", san_move_list)  ## List includes move Nums for White, can be used for PGN construction
                                         
-                    if "w " in FEN_new:
+                    if " w " in FEN_new:
                         to_move = "White"
                         san_str = str(move_counter//2-1)  + ". ..." + san_move_list[-1]
                         time_used = round(time.time()- time000,1)
@@ -507,7 +507,7 @@ def cam_func(FEN):
                         ###print("time_list, secs", btime_list)
                         ###print("black_time:", black_time)
                     
-                    if "b " in FEN_new:
+                    if " b " in FEN_new:
                         to_move = "Black"
                         san_str = san_move_list[-1]
                         time_used = round(time.time()- time000,1)
